@@ -1,0 +1,18 @@
+{
+  "name": "ota-s3-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-cloudfront": "^3.757.0",
+    "@aws-sdk/client-s3": "^3.750.0",
+    "@rnx-kit/bundle-diff": "^2.0.0",
+    "dotenv": "^16.4.7"
+  }
+}
